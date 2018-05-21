@@ -1,5 +1,7 @@
 # MelureInventory
-Invenroty Management of Melure Perfume Product
+Inventory Management of Melure Perfume Product
+
+Project Description
 This project is about for Melure inventory management. Melure is a name of perfume product. This system only have one user which is admin. Admin can insert, update and delete the products inventory. This system can facilitate admin to manage product inventory anywhere and anytime. Additionally, the interface of this system is user-friendly for use by admin as it is convenient.
 
 Functionalities & Modules
