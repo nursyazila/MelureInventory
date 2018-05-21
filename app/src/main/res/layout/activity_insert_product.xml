@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Gallery"
+        android:id="@+id/buttonSelect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:id="@+id/buttonUpload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextImageName"
+        android:layout_above="@+id/editTextImageDescription"
+        android:layout_centerHorizontal="true"
+        android:hint="Product Name"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextImageDescription"
+        android:layout_above="@+id/editTextImageQuantity"
+        android:layout_centerHorizontal="true"
+        android:hint="Product Description" />
+
+    <EditText
+        android:id="@+id/editTextImageQuantity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextImagePrice"
+        android:layout_centerHorizontal="true"
+        android:hint="Product Quantity"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/editTextImagePrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonUpload"
+        android:layout_centerHorizontal="true"
+        android:hint="Product Price"
+        android:inputType="numberDecimal" />
+
+    <ImageView
+        android:src="@drawable/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/buttonSelect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editTextImageName" />
+
+</RelativeLayout>
